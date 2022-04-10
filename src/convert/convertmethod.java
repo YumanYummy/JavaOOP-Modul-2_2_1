@@ -24,10 +24,11 @@ public class convertmethod {
         convertmain xy = new convertmain();
         System.out.println("\nHasil Koversi Adalah: \n");
 
-        System.out.println(detik + " Detik");
-        System.out.println(menit + " Menit");
-        System.out.println(jam + " Jam");
-        System.out.println(hari + " Hari\n");
+        System.out.println(choose + " Bulan Sama Dengan "+ hari + " Hari");
+        System.out.println(choose + " Bulan Sama Dengan "+ jam + " Jam");
+        System.out.println(choose + " Bulan Sama Dengan "+ menit + " Menit");
+        System.out.println(choose + " Bulan Sama Dengan "+ detik + " Detik\n");
+
 
         System.out.print("Tekan 1 Untuk Lanjut/ Tekan 0 Untuk Exit: ");
         int press = gg.nextInt();
